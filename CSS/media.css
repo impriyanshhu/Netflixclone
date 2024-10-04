@@ -1,0 +1,97 @@
+@media only screen and (max-width: 550px) {
+    nav {
+        width: 95vw;
+        padding: 5px;
+    }
+
+    .logo img {
+        width: 100px;
+    }
+
+    #lang {
+        width: 90px;
+    }
+
+    .btn-sm {
+        padding: 5px 5px;
+    }
+
+    .box h1 {
+        font-size: 33px;
+        margin: 0 15px;
+    }
+
+    .form p {
+        font-size: 16px;
+        margin: 0px 40px 10px 40px;
+    }
+
+    .btn {
+        padding: 15px 30px;
+    }
+
+    #faq{
+        font-size: 15px;
+    }
+
+    .ques p{
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 550px) {
+    .left-sec h1{
+        font-size: 50px;
+    }
+
+    .left-sec p{
+        font-size: 25px;
+    }
+
+}
+
+
+@media only screen and (max-width: 960px){
+
+    
+    .box p {
+        font-size: 18px;
+        margin: 0 10px;
+    }
+
+    #email {
+        width: 180px;
+        height: 0;
+        margin: 10px 0;
+    }
+
+    .btn{
+        padding: 11px 19px;
+        font-size: 16px;
+    }
+
+    .sec-box{
+        flex-direction: column;
+    }
+
+    .sec-box-r{
+        flex-direction: column;
+    }
+
+    section{
+        padding: 15px 0;
+        height: auto;
+    }
+
+    .right-sec video{
+        top: 70px;
+        right: 43px;
+    
+    }
+
+
+}
+
+
+

@@ -1,0 +1,222 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    background-color: rgba(0, 0, 0, 1);
+    color: #ffff;
+}
+
+h1{
+    font-weight: 900;
+}
+
+/*  ---------------------------------------------------  Navbar  ----------------------------------------------------------  */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 77vw;
+    margin: auto;
+    padding: 18px 5px;
+
+}
+
+#lang {
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffff;
+    border: 1px solid #ffff;
+    border-radius: 5px;
+    width: 120px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#lang option {
+    color: #000;
+}
+
+.right-nav a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.btn-sm {
+    background-color: red;
+    margin: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-sm:hover {
+    cursor: pointer;
+}
+
+.logo img {
+    width: 145px;
+}
+
+/* -------------------------------------------------------  Main  ----------------------------------------------------  */
+
+.main {
+    background:
+        /* top, transparent black, faked with gradient */
+        linear-gradient(rgba(0, 0, 0, 0.65),
+            rgba(0, 0, 0, 0.65)),
+        /* bottom, image */
+        url(../content/photo/bg.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100%;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 12% auto;
+    text-align: center;
+    gap: 20px;
+    font-size: 23px;
+}
+
+.form p {
+    margin-bottom: 10px;
+
+}
+
+#email {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 50%;
+    font-size: 16px;
+    border: 1px solid gray;
+    color: #ffff;
+    border-radius: 5px;
+}
+
+.btn {
+    background: red;
+    color: #ffff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 18px 40px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+/*  --------------------------------------------------  section  -----------------------------------------------------  */
+
+.line{
+    background-color: #393535;
+    width: 100%;
+    height: 8px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+}
+
+.sec-box{
+    /* border: 1px solid red; */
+    display: flex;
+    width: 81%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-sec{
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+}
+
+.right-sec{
+    /* border: 1px solid yellow; */
+    position: relative;
+}
+
+.right-sec video{
+    position: absolute;
+    width: 80%;
+    top: 52px;
+    right: 30px;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.right-sec img{
+    width: 100%;
+}
+
+.sec-box-r{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row-reverse;
+    width: 81%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#faq{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5% auto;
+    text-align: center;
+    gap: 20px;
+    font-size: 23px;
+}
+
+.faq-ques{
+    background-color: #2d2d2d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 70%;
+    margin: 12px auto 3px auto;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.ans{
+    background-color: #2d2d2d;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    text-align: left;
+}
+
+#ans-1, #ans-2, #ans-3, #ans-4, #ans-5, #ans-6{
+    display: none;
+}
+
+.faq-ques:hover{
+    background-color: #3b3b3b;
+}
+
+.faq-form{
+    width: fit-content;
+    margin: 3.5rem auto;
+}
